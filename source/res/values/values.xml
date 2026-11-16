@@ -3,6 +3,13 @@
     <color name="brand">#3e093f</color>
     <color name="icon_bg">#340328</color>
     <string name="app_name">Bible Corner - KJT</string>
+    <style name="Native" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/brand</item>
+        <item name="android:colorPrimary">@color/brand</item>
+        <item name="android:colorPrimaryDark">@color/brand</item>
+        <item name="android:colorAccent">#7a1f6b</item>
+        <item name="android:windowBackground">@android:color/background_light</item>
+    </style>
     <style name="Launch" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:windowBackground">@drawable/splash</item>
         <item name="android:statusBarColor">@color/brand</item>

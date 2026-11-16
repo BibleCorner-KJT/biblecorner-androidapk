@@ -45,7 +45,7 @@ import java.io.OutputStream;
    (its code, look and words) are inside the app and used whenever they match the website's version;
    a newer version on the website is fetched from there, so website updates still reach the app. */
 public class LauncherActivity extends Activity {
-    static final String VER = "3.2";
+    static final String VER = "3.1";
     static final String HOME = "https://biblecorner.com/read/?kjt_app=1&kjt_appv=" + VER;
     static LauncherActivity live;
     static final int REQ_FILE = 11, REQ_LOC = 12, REQ_NOTE = 13;
@@ -606,6 +606,8 @@ public class LauncherActivity extends Activity {
 
     /* the lock-screen buttons, back to the page */
     static void control(final String action) {
+        final Main n = Main.live;
+        if (n != null && n.player != null && n.player.active) { K.ui.post(new Runnable() { public void run() { n.player.control(action); } }); return; }
         final LauncherActivity a = live;
         if (a == null) return;
         a.ui.post(new Runnable() { public void run() { a.web.evaluateJavascript("window.__kjtMedia&&window.__kjtMedia('" + action + "')", null); } });

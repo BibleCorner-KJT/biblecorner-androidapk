@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
     <shortcut android:shortcutId="read" android:enabled="true" android:icon="@drawable/sc_read" android:shortcutShortLabel="@string/sc_cont" android:shortcutLongLabel="@string/sc_cont">
-        <intent android:action="android.intent.action.VIEW" android:targetPackage="today.knowingjesus.biblecorner" android:targetClass="today.knowingjesus.biblecorner.LauncherActivity" android:data="https://biblecorner.com/read/?kjt_app=1&amp;kjt_appv=2.0&amp;kjt_go=read"/>
+        <intent android:action="android.intent.action.VIEW" android:targetPackage="today.knowingjesus.biblecorner" android:targetClass="today.knowingjesus.biblecorner.Main"><extra android:name="page" android:value="bible"/></intent>
     </shortcut>
     <shortcut android:shortcutId="listen" android:enabled="true" android:icon="@drawable/sc_listen" android:shortcutShortLabel="@string/sc_listen" android:shortcutLongLabel="@string/sc_listen">
-        <intent android:action="android.intent.action.VIEW" android:targetPackage="today.knowingjesus.biblecorner" android:targetClass="today.knowingjesus.biblecorner.LauncherActivity" android:data="https://biblecorner.com/read/?kjt_app=1&amp;kjt_appv=2.0&amp;kjt_go=listen"/>
+        <intent android:action="android.intent.action.VIEW" android:targetPackage="today.knowingjesus.biblecorner" android:targetClass="today.knowingjesus.biblecorner.Main"><extra android:name="page" android:value="listen"/></intent>
     </shortcut>
     <shortcut android:shortcutId="today" android:enabled="true" android:icon="@drawable/sc_today" android:shortcutShortLabel="@string/sc_today" android:shortcutLongLabel="@string/sc_today">
-        <intent android:action="android.intent.action.VIEW" android:targetPackage="today.knowingjesus.biblecorner" android:targetClass="today.knowingjesus.biblecorner.LauncherActivity" android:data="https://biblecorner.com/read/?kjt_app=1&amp;kjt_appv=2.0&amp;kjt_go=today"/>
+        <intent android:action="android.intent.action.VIEW" android:targetPackage="today.knowingjesus.biblecorner" android:targetClass="today.knowingjesus.biblecorner.Main"><extra android:name="page" android:value="today"/></intent>
     </shortcut>
     <shortcut android:shortcutId="church" android:enabled="true" android:icon="@drawable/sc_church" android:shortcutShortLabel="@string/sc_church" android:shortcutLongLabel="@string/sc_church">
         <intent android:action="android.intent.action.VIEW" android:targetPackage="today.knowingjesus.biblecorner" android:targetClass="today.knowingjesus.biblecorner.LauncherActivity" android:data="https://biblecorner.com/read/?kjt_app=1&amp;kjt_appv=2.0&amp;kjt_go=church"/>
