@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_app">Καμία εφαρμογή σε αυτό το κινητό δεν μπορεί να ανοίξει αυτόν τον σύνδεσμο.</string>
+    <string name="offline_t">Δεν υπάρχει σύνδεση στο ίντερνετ</string>
+    <string name="offline_p">Συνδέσου στο ίντερνετ μία φορά για να ετοιμαστεί το Bible Corner. Μετά, οι Βίβλοι και οι ηχογραφήσεις που αποθηκεύεις λειτουργούν χωρίς ίντερνετ.</string>
+    <string name="retry">Δοκίμασε ξανά</string>
+    <string name="downloading">Λήψη</string>
+    <string name="saved">Αποθηκεύτηκε στο</string>
+    <string name="not_saved">Το αρχείο δεν αποθηκεύτηκε.</string>
+    <string name="player">Ηχογραφήσεις της Βίβλου</string>
+    <string name="prev">Προηγούμενο κεφάλαιο</string>
+    <string name="pause">Παύση</string>
+    <string name="play">Αναπαραγωγή</string>
+    <string name="next">Επόμενο κεφάλαιο</string>
+    <string name="net_help">Αν το κινητό είναι συνδεδεμένο, ίσως το Bible Corner δεν έχει άδεια να χρησιμοποιεί το δίκτυο. Άνοιξε τις ρυθμίσεις της εφαρμογής και επίτρεψε την πρόσβαση στο δίκτυο ή στο ίντερνετ.</string>
+    <string name="open_settings">Άνοιξε τις ρυθμίσεις της εφαρμογής</string>
+    <string name="ch_news">Νέα από το Bible Corner</string>
+    <string name="ch_verse">Στίχος της ημέρας</string>
+    <string name="w_wait">Άνοιξε μία φορά το Bible Corner για να δεις εδώ το Εδάφιο της ημέρας.</string>
+    <string name="ch_remind">Υπενθύμιση καθημερινής ανάγνωσης</string>
+    <string name="ch_games">Παιχνίδια: η σειρά σου</string>
+    <string name="g_turn">Είναι η σειρά σου. Πάτησε για να παίξεις.</string>
+    <string name="r_title">Ώρα για Αγία Γραφή</string>
+    <string name="r_text">Η καθημερινή σου ανάγνωση σε περιμένει. Πάτησε για να την ανοίξεις.</string>
+</resources>

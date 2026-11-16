@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_app">لا يوجد تطبيق على هذا الهاتف يمكنه فتح هذا الرابط.</string>
+    <string name="offline_t">لا يوجد اتصال بالإنترنت</string>
+    <string name="offline_p">اتصل بالإنترنت مرة واحدة ليجهز ركن الكتاب المقدس. بعد ذلك تعمل الكتب والتسجيلات التي تحفظها بدون إنترنت.</string>
+    <string name="retry">حاول مرة أخرى</string>
+    <string name="downloading">جارٍ التنزيل</string>
+    <string name="saved">حُفظ في</string>
+    <string name="not_saved">تعذر حفظ الملف.</string>
+    <string name="player">تسجيلات الكتاب المقدس</string>
+    <string name="prev">الأصحاح السابق</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="play">تشغيل</string>
+    <string name="next">الأصحاح التالي</string>
+    <string name="net_help">إذا كان الهاتف متصلًا، فربما لا يُسمح لركن الكتاب المقدس باستخدام الشبكة. افتح إعدادات التطبيق واسمح بالوصول إلى الشبكة أو الإنترنت.</string>
+    <string name="open_settings">افتح إعدادات التطبيق</string>
+    <string name="ch_news">أخبار ركن الكتاب المقدس</string>
+    <string name="ch_verse">آية اليوم</string>
+    <string name="w_wait">افتح Bible Corner مرة واحدة لترى آية اليوم هنا.</string>
+    <string name="ch_remind">تذكير القراءة اليومية</string>
+    <string name="ch_games">الألعاب: حان دورك</string>
+    <string name="g_turn">حان دورك. اضغط للعب.</string>
+    <string name="r_title">حان وقت قراءة الكتاب المقدس</string>
+    <string name="r_text">قراءتك اليومية بانتظارك. انقر لفتحها.</string>
+</resources>

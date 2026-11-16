@@ -1,0 +1,1 @@
+package android.content.pm; public abstract class PackageManager { public static int PERMISSION_GRANTED; public abstract PackageInstaller getPackageInstaller(); }

@@ -1,0 +1,4 @@
+package android.content.pm; public class PackageInstaller { public static String EXTRA_STATUS; public static int STATUS_PENDING_USER_ACTION, STATUS_SUCCESS;
+ public int createSession(SessionParams p) throws java.io.IOException {return 0;} public Session openSession(int id) throws java.io.IOException {return null;}
+ public static class SessionParams { public static int MODE_FULL_INSTALL; public SessionParams(int m){} }
+ public static class Session implements java.io.Closeable { public java.io.OutputStream openWrite(String n, long o, long l) throws java.io.IOException {return null;} public void fsync(java.io.OutputStream o) throws java.io.IOException {} public void commit(android.content.IntentSender s){} public void close(){} public void abandon(){} } }

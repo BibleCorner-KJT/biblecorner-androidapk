@@ -1,0 +1,1 @@
+package android.webkit; public class ServiceWorkerClient { public ServiceWorkerClient(){} public WebResourceResponse shouldInterceptRequest(WebResourceRequest r){return null;} }

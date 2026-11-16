@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_read">اقرأ</string>
+    <string name="sc_listen">الاستماع</string>
+    <string name="sc_today">اليوم</string>
+    <string name="sc_study">الدراسة</string>
+    <string name="sc_church">ابحث عن كنيسة</string>
+    <string name="sc_cont">تابع القراءة</string>
+</resources>

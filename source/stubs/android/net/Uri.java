@@ -1,0 +1,3 @@
+package android.net; public abstract class Uri implements android.os.Parcelable { public static Uri parse(String s){return null;} public static String encode(String s){return null;}
+ public abstract String getScheme(); public abstract String getHost(); public abstract String getPath(); public abstract String getFragment(); public String getQueryParameter(String k){return null;} public abstract Builder buildUpon();
+ public static final class Builder { public Builder appendQueryParameter(String k, String v){return this;} public Uri build(){return null;} } }

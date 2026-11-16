@@ -1,0 +1,3 @@
+package android.webkit; public class WebChromeClient { public boolean onShowFileChooser(WebView v, ValueCallback<android.net.Uri[]> cb, FileChooserParams p){return false;} public void onShowCustomView(android.view.View v, CustomViewCallback cb){} public void onHideCustomView(){} public void onGeolocationPermissionsShowPrompt(String o, GeolocationPermissions.Callback cb){}
+ public interface CustomViewCallback { void onCustomViewHidden(); }
+ public abstract static class FileChooserParams { public static android.net.Uri[] parseResult(int r, android.content.Intent d){return null;} public abstract android.content.Intent createIntent(); } }

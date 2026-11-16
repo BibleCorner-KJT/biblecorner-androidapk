@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_app">Walang app sa teleponong ito na makakapagbukas ng link na ito.</string>
+    <string name="offline_t">Walang koneksyon sa internet</string>
+    <string name="offline_p">Kumonekta sa internet nang isang beses para maihanda ang Bible Corner. Pagkatapos, gumagana nang walang internet ang mga Bibliya at recording na na-save mo.</string>
+    <string name="retry">Subukan ulit</string>
+    <string name="downloading">Nagda-download</string>
+    <string name="saved">Na-save sa</string>
+    <string name="not_saved">Hindi na-save ang file.</string>
+    <string name="player">Mga recording ng Bibliya</string>
+    <string name="prev">Nakaraang kabanata</string>
+    <string name="pause">I-pause</string>
+    <string name="play">I-play</string>
+    <string name="next">Susunod na kabanata</string>
+    <string name="net_help">Kung nakakonekta ang teleponong ito, baka hindi pinapayagan ang Bible Corner na gumamit ng network. Buksan ang settings ng app at payagan ang Network o Internet.</string>
+    <string name="open_settings">Buksan ang settings ng app</string>
+    <string name="ch_news">Balita mula sa Bible Corner</string>
+    <string name="ch_verse">Talata ng araw</string>
+    <string name="w_wait">Buksan ang Bible Corner nang isang beses para makita rito ang Talata ng araw.</string>
+    <string name="ch_remind">Paalala sa araw-araw na pagbasa</string>
+    <string name="ch_games">Mga laro: ikaw na</string>
+    <string name="g_turn">Ikaw na. Pindutin para maglaro.</string>
+    <string name="r_title">Oras na para magbasa ng Bibliya</string>
+    <string name="r_text">Naghihintay ang iyong pagbasa ngayong araw. Pindutin para buksan.</string>
+</resources>

@@ -1,0 +1,1 @@
+package android.media; public final class MediaMetadata { public static String METADATA_KEY_TITLE, METADATA_KEY_ARTIST; public static final class Builder { public Builder(){} public Builder putString(String k, String v){return this;} public MediaMetadata build(){return null;} } }

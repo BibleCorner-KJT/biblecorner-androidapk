@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_read">阅读</string>
+    <string name="sc_listen">聆听</string>
+    <string name="sc_today">今天</string>
+    <string name="sc_study">学习</string>
+    <string name="sc_church">寻找教堂</string>
+    <string name="sc_cont">继续阅读</string>
+</resources>

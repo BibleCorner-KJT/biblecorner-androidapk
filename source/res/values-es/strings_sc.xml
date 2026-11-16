@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_read">Leer</string>
+    <string name="sc_listen">Escuchar</string>
+    <string name="sc_today">Hoy</string>
+    <string name="sc_study">Estudio</string>
+    <string name="sc_church">Buscar una iglesia</string>
+    <string name="sc_cont">Seguir leyendo</string>
+</resources>

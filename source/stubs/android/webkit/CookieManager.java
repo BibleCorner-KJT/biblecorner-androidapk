@@ -1,0 +1,1 @@
+package android.webkit; public abstract class CookieManager { public static CookieManager getInstance(){return null;} public abstract void setAcceptCookie(boolean a); public abstract void flush(); public abstract String getCookie(String u); }

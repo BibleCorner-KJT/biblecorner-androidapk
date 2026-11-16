@@ -1,0 +1,1 @@
+package android.webkit; public interface DownloadListener { void onDownloadStart(String url, String ua, String cd, String mime, long len); }

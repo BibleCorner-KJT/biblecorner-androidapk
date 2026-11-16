@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_app">No app on this phone can open this link.</string>
+    <string name="offline_t">No internet connection</string>
+    <string name="offline_p">Connect to the internet once so Bible Corner can get ready. After that, the Bibles and recordings you save work without internet.</string>
+    <string name="retry">Try again</string>
+    <string name="downloading">Downloading</string>
+    <string name="saved">Saved in</string>
+    <string name="not_saved">The file could not be saved.</string>
+    <string name="player">Bible recordings</string>
+    <string name="prev">Previous chapter</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="next">Next chapter</string>
+    <string name="net_help">If this phone is connected, Bible Corner may not be allowed to use the network. Open the app settings and allow Network or Internet access.</string>
+    <string name="open_settings">Open app settings</string>
+    <string name="ch_news">News from Bible Corner</string>
+    <string name="ch_verse">Verse of the day</string>
+    <string name="w_wait">Open Bible Corner once to see the Verse of the day here.</string>
+    <string name="ch_remind">Daily reading reminder</string>
+    <string name="ch_games">Games: your turn</string>
+    <string name="g_turn">It is your turn. Tap to play.</string>
+    <string name="r_title">Time to read the Bible</string>
+    <string name="r_text">Your daily reading is waiting. Tap to open it.</string>
+</resources>

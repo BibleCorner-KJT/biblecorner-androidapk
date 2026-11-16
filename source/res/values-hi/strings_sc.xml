@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_read">पढ़ें</string>
+    <string name="sc_listen">सुनें</string>
+    <string name="sc_today">आज</string>
+    <string name="sc_study">अध्ययन</string>
+    <string name="sc_church">चर्च खोजें</string>
+    <string name="sc_cont">पढ़ना जारी रखें</string>
+</resources>

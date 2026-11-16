@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_app">这部手机上没有可以打开此链接的应用。</string>
+    <string name="offline_t">没有网络连接</string>
+    <string name="offline_p">请先联网一次，让 Bible Corner 准备就绪。之后，你保存的圣经和录音无需联网即可使用。</string>
+    <string name="retry">重试</string>
+    <string name="downloading">正在下载</string>
+    <string name="saved">已保存到</string>
+    <string name="not_saved">无法保存文件。</string>
+    <string name="player">圣经录音</string>
+    <string name="prev">上一章</string>
+    <string name="pause">暂停</string>
+    <string name="play">播放</string>
+    <string name="next">下一章</string>
+    <string name="net_help">如果这部手机已联网，可能是 Bible Corner 没有使用网络的权限。请打开应用设置，允许访问网络或互联网。</string>
+    <string name="open_settings">打开应用设置</string>
+    <string name="ch_news">Bible Corner 消息</string>
+    <string name="ch_verse">每日经文</string>
+    <string name="w_wait">打开一次 Bible Corner，即可在这里看到每日经文。</string>
+    <string name="ch_remind">每日读经提醒</string>
+    <string name="ch_games">游戏：轮到你了</string>
+    <string name="g_turn">轮到你了。点按开始。</string>
+    <string name="r_title">读经的时间到了</string>
+    <string name="r_text">今天的读经在等着你。点一下打开。</string>
+</resources>

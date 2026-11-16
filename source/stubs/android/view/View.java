@@ -1,0 +1,2 @@
+package android.view; public class View { public static int VISIBLE, INVISIBLE, GONE, OVER_SCROLL_NEVER, SYSTEM_UI_FLAG_FULLSCREEN, SYSTEM_UI_FLAG_HIDE_NAVIGATION, SYSTEM_UI_FLAG_IMMERSIVE_STICKY, SYSTEM_UI_FLAG_VISIBLE;
+ public View(android.content.Context c){} public void setVisibility(int v){} public void setOverScrollMode(int m){} public void setBackgroundColor(int c){} public void setSystemUiVisibility(int f){} }

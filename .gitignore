@@ -1,0 +1,15 @@
+# never in this repository: the signing key and its password
+*.p12
+*.pem
+*.jks
+*.keystore
+keys/
+README.txt
+# built files
+*.apk
+build/
+gen/
+out/
+dex/
+*.class
+app.jar

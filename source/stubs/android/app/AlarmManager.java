@@ -1,0 +1,1 @@
+package android.app; public class AlarmManager { public static int RTC_WAKEUP; public void cancel(PendingIntent p){} public void setAndAllowWhileIdle(int t, long at, PendingIntent p){} }

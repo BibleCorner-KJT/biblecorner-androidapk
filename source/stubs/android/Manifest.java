@@ -1,0 +1,1 @@
+package android; public final class Manifest { public static final class permission { public static String ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION; } }

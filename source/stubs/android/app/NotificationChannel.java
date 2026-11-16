@@ -1,0 +1,1 @@
+package android.app; public final class NotificationChannel { public NotificationChannel(String id, CharSequence n, int i){} public void setShowBadge(boolean b){} public void enableVibration(boolean b){} public void setVibrationPattern(long[] p){} }

@@ -1,0 +1,5 @@
+package android.content; import android.content.res.AssetManager; public abstract class Context {
+ public static String DOWNLOAD_SERVICE, CLIPBOARD_SERVICE, NOTIFICATION_SERVICE, VIBRATOR_SERVICE, CONNECTIVITY_SERVICE, JOB_SCHEDULER_SERVICE, ALARM_SERVICE; public static int MODE_PRIVATE;
+ public Object getSystemService(String n){return null;} public final String getString(int id){return null;} public int checkSelfPermission(String p){return 0;}
+ public ContentResolver getContentResolver(){return null;} public java.io.File getExternalFilesDir(String t){return null;} public SharedPreferences getSharedPreferences(String n,int m){return null;}
+ public boolean stopService(Intent i){return false;} public ComponentName startService(Intent i){return null;} public ComponentName startForegroundService(Intent i){return null;} public AssetManager getAssets(){return null;} public void startActivity(Intent i){} public String getPackageName(){return null;} public Context getApplicationContext(){return this;} public android.content.pm.PackageManager getPackageManager(){return null;} public android.content.res.Resources getResources(){return null;} }

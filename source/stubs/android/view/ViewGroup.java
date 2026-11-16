@@ -1,0 +1,1 @@
+package android.view; public abstract class ViewGroup extends View { public ViewGroup(android.content.Context c){super(c);} public void addView(View v, LayoutParams p){} public void removeView(View v){} public static class LayoutParams { public static int MATCH_PARENT; public LayoutParams(int w,int h){} } }

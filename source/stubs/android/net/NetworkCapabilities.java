@@ -1,0 +1,1 @@
+package android.net; public final class NetworkCapabilities { public static int NET_CAPABILITY_INTERNET; public boolean hasCapability(int c){return false;} }

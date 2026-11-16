@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_app">На этом телефоне нет приложения, которое может открыть эту ссылку.</string>
+    <string name="offline_t">Нет подключения к интернету</string>
+    <string name="offline_p">Подключись к интернету один раз, чтобы Bible Corner подготовился. Потом сохранённые Библии и записи работают без интернета.</string>
+    <string name="retry">Попробовать снова</string>
+    <string name="downloading">Загрузка</string>
+    <string name="saved">Сохранено в</string>
+    <string name="not_saved">Не удалось сохранить файл.</string>
+    <string name="player">Записи Библии</string>
+    <string name="prev">Предыдущая глава</string>
+    <string name="pause">Пауза</string>
+    <string name="play">Воспроизвести</string>
+    <string name="next">Следующая глава</string>
+    <string name="net_help">Если телефон подключён, возможно, Bible Corner не разрешено пользоваться сетью. Открой настройки приложения и разреши доступ к сети или интернету.</string>
+    <string name="open_settings">Открыть настройки приложения</string>
+    <string name="ch_news">Новости Bible Corner</string>
+    <string name="ch_verse">Стих дня</string>
+    <string name="w_wait">Откройте Bible Corner один раз, чтобы видеть здесь стих дня.</string>
+    <string name="ch_remind">Напоминание о ежедневном чтении</string>
+    <string name="ch_games">Игры: твой ход</string>
+    <string name="g_turn">Твой ход. Нажми, чтобы играть.</string>
+    <string name="r_title">Время читать Библию</string>
+    <string name="r_text">Ваше чтение на сегодня ждёт. Нажмите, чтобы открыть.</string>
+</resources>

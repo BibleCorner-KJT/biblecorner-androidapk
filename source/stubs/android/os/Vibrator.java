@@ -1,0 +1,1 @@
+package android.os; public abstract class Vibrator { public abstract boolean hasVibrator(); public abstract void cancel(); public void vibrate(long ms){} public void vibrate(long[] p, int r){} public void vibrate(VibrationEffect e){} }

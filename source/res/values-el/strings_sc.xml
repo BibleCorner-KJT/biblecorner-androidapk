@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_read">Διάβασε</string>
+    <string name="sc_listen">Άκου</string>
+    <string name="sc_today">Σήμερα</string>
+    <string name="sc_study">Μελέτη</string>
+    <string name="sc_church">Βρες εκκλησία</string>
+    <string name="sc_cont">Συνέχισε την ανάγνωση</string>
+</resources>

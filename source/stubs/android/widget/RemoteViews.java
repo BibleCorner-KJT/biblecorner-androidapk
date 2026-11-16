@@ -1,0 +1,1 @@
+package android.widget; public class RemoteViews { public RemoteViews(String p, int l){} public void setTextViewText(int id, CharSequence t){} public void setOnClickPendingIntent(int id, android.app.PendingIntent p){} }

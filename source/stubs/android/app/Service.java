@@ -1,0 +1,3 @@
+package android.app; import android.content.*; public abstract class Service extends ContextWrapper { public static int STOP_FOREGROUND_DETACH, STOP_FOREGROUND_REMOVE, START_NOT_STICKY;
+ public void onCreate(){} public int onStartCommand(Intent i, int f, int id){return 0;} public final void startForeground(int id, Notification n){} public final void startForeground(int id, Notification n, int t){} public final void stopForeground(int f){} public final void stopSelf(){}
+ public void onTaskRemoved(Intent r){} public void onDestroy(){} public abstract android.os.IBinder onBind(Intent i); }

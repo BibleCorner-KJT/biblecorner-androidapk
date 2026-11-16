@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_app">Ninguna aplicación de este teléfono puede abrir este enlace.</string>
+    <string name="offline_t">Sin conexión a internet</string>
+    <string name="offline_p">Conéctate a internet una vez para que Bible Corner se prepare. Después, las Biblias y grabaciones que guardes funcionan sin internet.</string>
+    <string name="retry">Intentar de nuevo</string>
+    <string name="downloading">Descargando</string>
+    <string name="saved">Guardado en</string>
+    <string name="not_saved">No se pudo guardar el archivo.</string>
+    <string name="player">Grabaciones de la Biblia</string>
+    <string name="prev">Capítulo anterior</string>
+    <string name="pause">Pausa</string>
+    <string name="play">Reproducir</string>
+    <string name="next">Capítulo siguiente</string>
+    <string name="net_help">Si este teléfono está conectado, puede que Bible Corner no tenga permiso para usar la red. Abre los ajustes de la aplicación y permite el acceso a la red o a internet.</string>
+    <string name="open_settings">Abrir los ajustes de la aplicación</string>
+    <string name="ch_news">Noticias de Bible Corner</string>
+    <string name="ch_verse">Versículo del día</string>
+    <string name="w_wait">Abre Bible Corner una vez para ver aquí el versículo del día.</string>
+    <string name="ch_remind">Recordatorio de lectura diaria</string>
+    <string name="ch_games">Juegos: tu turno</string>
+    <string name="g_turn">Es tu turno. Toca para jugar.</string>
+    <string name="r_title">Es hora de leer la Biblia</string>
+    <string name="r_text">Tu lectura de hoy te espera. Toca para abrirla.</string>
+</resources>

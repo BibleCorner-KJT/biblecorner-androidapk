@@ -1,0 +1,4 @@
+package android.app; import android.content.*; import android.os.Bundle; public class Activity extends ContextWrapper {
+ protected void onCreate(Bundle b){} public android.view.Window getWindow(){return null;} public void setContentView(android.view.View v){} public Intent getIntent(){return null;} public void setIntent(Intent i){}
+ protected void onNewIntent(Intent i){} public void onBackPressed(){} public boolean moveTaskToBack(boolean b){return true;} protected void onSaveInstanceState(Bundle b){} protected void onPause(){} protected void onDestroy(){}
+ public void startActivityForResult(Intent i, int r){} protected void onActivityResult(int a, int b, Intent d){} public void onRequestPermissionsResult(int r, String[] p, int[] g){} public final void requestPermissions(String[] p, int r){} public void recreate(){} public void onConfigurationChanged(android.content.res.Configuration c){} public boolean shouldShowRequestPermissionRationale(String p){return false;} }

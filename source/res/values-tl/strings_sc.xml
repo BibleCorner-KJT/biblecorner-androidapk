@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sc_read">Basahin</string>
+    <string name="sc_listen">Makinig</string>
+    <string name="sc_today">Ngayon</string>
+    <string name="sc_study">Pag-aaral</string>
+    <string name="sc_church">Maghanap ng simbahan</string>
+    <string name="sc_cont">Ituloy ang pagbasa</string>
+</resources>

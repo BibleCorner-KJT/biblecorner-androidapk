@@ -1,0 +1,1 @@
+package android.content.res; public final class Configuration { public static int UI_MODE_NIGHT_MASK, UI_MODE_NIGHT_YES; public int uiMode; public float fontScale; }
