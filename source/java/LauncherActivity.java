@@ -45,7 +45,7 @@ import java.io.OutputStream;
    (its code, look and words) are inside the app and used whenever they match the website's version;
    a newer version on the website is fetched from there, so website updates still reach the app. */
 public class LauncherActivity extends Activity {
-    static final String VER = "3.2";
+    static final String VER = "3.3";
     static final String HOME = "https://biblecorner.com/read/?kjt_app=1&kjt_appv=" + VER;
     static LauncherActivity live;
     static final int REQ_FILE = 11, REQ_LOC = 12, REQ_NOTE = 13;
