@@ -45,8 +45,9 @@ import java.io.OutputStream;
    (its code, look and words) are inside the app and used whenever they match the website's version;
    a newer version on the website is fetched from there, so website updates still reach the app. */
 public class LauncherActivity extends Activity {
-    static final String VER = "3.3";
+    static final String VER = "3.4";
     static final String HOME = "https://biblecorner.com/read/?kjt_app=1&kjt_appv=" + VER;
+    static final String ICON_NAMES = "Purple,Navy,Black,Green,Wine", ICON_DEFAULT = "Purple";
     static LauncherActivity live;
     static final int REQ_FILE = 11, REQ_LOC = 12, REQ_NOTE = 13;
 
@@ -93,6 +94,10 @@ public class LauncherActivity extends Activity {
         s.setUserAgentString(s.getUserAgentString() + " BibleCornerApp/" + VER);
         CookieManager.getInstance().setAcceptCookie(true);
 
+        /* 3.4: the site keeps its own colours: no darkening by the phone (it made the coloured Bible books look wrong) */
+        try { if (android.os.Build.VERSION.SDK_INT >= 29) web.getClass().getMethod("setForceDarkAllowed", boolean.class).invoke(web, false); } catch (Throwable t) {}
+        try { if (android.os.Build.VERSION.SDK_INT >= 33) s.getClass().getMethod("setAlgorithmicDarkeningAllowed", boolean.class).invoke(s, false);
+              else if (android.os.Build.VERSION.SDK_INT >= 29) s.getClass().getMethod("setForceDark", int.class).invoke(s, 0); } catch (Throwable t) {}
         web.addJavascriptInterface(new Bridge(), "KJTApp");
         web.setWebViewClient(new Client());
         web.setWebChromeClient(new Chrome());
@@ -327,6 +332,31 @@ public class LauncherActivity extends Activity {
     class Bridge {
         @JavascriptInterface
         public String version() { return VER; }
+
+        /* 3.4: the app's icon, chosen in Settings: one of the icons that come with the app (each is a launcher entry
+           of its own; the chosen one is switched on and the others off) */
+        @JavascriptInterface
+        public String icons() { return ICON_NAMES; }
+        @JavascriptInterface
+        public String icon() {
+            for (String n : ICON_NAMES.split(",")) {
+                int st = getPackageManager().getComponentEnabledSetting(new android.content.ComponentName(LauncherActivity.this, "today.knowingjesus.biblecorner.Icon" + n));
+                if (st == android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_ENABLED || (st == android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DEFAULT && n.equals(ICON_DEFAULT))) return n;
+            }
+            return ICON_DEFAULT;
+        }
+        @JavascriptInterface
+        public boolean setIcon(String name) {
+            if (name == null || !("," + ICON_NAMES + ",").contains("," + name + ",")) return false;
+            try {
+                android.content.pm.PackageManager pm = getPackageManager();
+                /* the new one first, so the app always has an icon */
+                pm.setComponentEnabledSetting(new android.content.ComponentName(LauncherActivity.this, "today.knowingjesus.biblecorner.Icon" + name), android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_ENABLED, android.content.pm.PackageManager.DONT_KILL_APP);
+                for (String n : ICON_NAMES.split(",")) if (!n.equals(name))
+                    pm.setComponentEnabledSetting(new android.content.ComponentName(LauncherActivity.this, "today.knowingjesus.biblecorner.Icon" + n), android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED, android.content.pm.PackageManager.DONT_KILL_APP);
+                return true;
+            } catch (Throwable t) { return false; }
+        }
 
         /* 2.1: the phone's voice reads aloud (Bible "Read aloud", Listen for the Holy Fathers) */
         @JavascriptInterface
